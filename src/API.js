@@ -2,7 +2,7 @@ import axios from 'axios';
 
 let baseURL; 
 
-baseURL = 'http://127.0.0.1:8000/';
+baseURL = 'https://around-the-world-backend-j5te.onrender.com/';
 
 // if(process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "PRODUCTION") {
 //     baseURL = process.env.REACT_APP_API_BASE_URL;

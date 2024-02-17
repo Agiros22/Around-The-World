@@ -1,7 +1,7 @@
 import * as Actions from './actions';
 import initialState from '../store/initialState'; 
 
-export const CategoriesReducer = (state=initialState, action) => {
+export const CategoriesReducer = (state=initialState.categories, action) => {
     switch (action.type) {
         case Actions.ADD_CATEGORY:
             return {
